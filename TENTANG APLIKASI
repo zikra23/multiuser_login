@@ -1,0 +1,11 @@
+Tentang Aplikasi:
+aplikasi ini merupakan tutorial dari web programming unpas menggunakan fitur multi user level, menampilkan menu yang bisa diakses user sesuai level atau rolenya, 
+pengiriman notifikasi ke email untuk aktivasi akun, lupa password
+
+
+framework 
+Code Igniter 3
+Bootstrap
+
+Template : SB Admin 2
+
