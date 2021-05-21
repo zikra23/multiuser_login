@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 21, 2021 at 06:42 PM
+-- Generation Time: May 21, 2021 at 09:05 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.9
 
@@ -51,11 +51,12 @@ INSERT INTO `user` (`id`, `name`, `email`, `image`, `password`, `role_id`, `is_a
 (6, 'Zikra Adib Hawari', 'zikraadib@gmail.com', 'user2.png', '$2y$10$0qjE4TyucnJaWbdzZVJYUOJQpdPXg5W1Zv.Yf.UHe4idzfmtpREBC', 1, 1, 1604090445),
 (11, 'zikra', 'asdasd32@gmail.com', 'default.jpg', '$2y$10$nzNYldQe2ms7PTPJs1j7m.ft4ggKmZX9TgyC.gFwiJ7fTBdMqQPVi', 2, 1, 1605887869),
 (12, 'zikra', 'zikrahawari1@gmail.com', 'default.jpg', '$2y$10$DmbzSeV9uEXe6seZReFKMuSJ8gxBuEuVfEnLmZmbo5oRjg1dLadn.', 2, 0, 1606061662),
-(13, 'zikra', 'zikrahawari@gmail.com', '2016-cf-lancer-gsr-sedan-551-lightning-blue_002.png', '$2y$10$fOirB.Uzt710wBSg5FJZXud.LaX50DjTWZt.Dv9XRzcYP.13qWZDC', 1, 1, 1606061695),
+(13, 'zikra', 'zikrahawari@gmail.com', '2016-cf-lancer-gsr-sedan-551-lightning-blue_002.png', '$2y$10$pJ7VVtonlvwqri3d516o/u11dR9Rf5Hr5Fsx2p2C2cz3zH7QfoHoW', 1, 1, 1606061695),
 (14, 'zikra', 'zikraadib2@gmail.com', 'default.jpg', '$2y$10$9sjO7aBcy21F2FCeRfjs0OuRMi2pqk3Vp4Ee9jEAutgPUjmY6dWfy', 2, 0, 1621612931),
 (15, 'zikra', 'zikra23@gmail.com', 'default.jpg', '$2y$10$xExr.R4nwxzPiTHIIXsAvOGof9yOpyzheOovkQXR4NchgD443RtL.', 2, 0, 1621613004),
-(16, 'lani kemala sari', 'lani_sari2@gmail.com', 'default.jpg', '$2y$10$fqc1Le6Y5cYjl/BTgtGrwOIvUJhWtQjHmBbIR4hY5SzMYTk0Eaimy', 2, 0, 1621613372),
-(17, 'zikra', 'zikra23222@gmail.com', 'default.jpg', '$2y$10$6307cWLf11wtJcb6rmezoeZOd.ks4uIheNjb9W7IrphqLF0QmVBGS', 2, 0, 1621613415);
+(16, 'lani kemala sari', 'lani_sari2@gmail.com', 'default.jpg', '$2y$10$fqc1Le6Y5cYjl/BTgtGrwOIvUJhWtQjHmBbIR4hY5SzMYTk0Eaimy', 2, 1, 1621613372),
+(17, 'zikra', 'zikra23222@gmail.com', 'default.jpg', '$2y$10$6307cWLf11wtJcb6rmezoeZOd.ks4uIheNjb9W7IrphqLF0QmVBGS', 2, 1, 1621613415),
+(18, 'awal afif', 'awal_afif@gmail.com', 'default.jpg', '$2y$10$xKmZHKcOUELMPk.Q6zw.BecJYJQe/QjgXCrkjLxLCqKO2Oimuw5Qq', 2, 1, 1621623703);
 
 -- --------------------------------------------------------
 
@@ -187,7 +188,8 @@ INSERT INTO `user_token` (`id`, `email`, `token`, `date_created`) VALUES
 (33, 'zikraadib@gmail.com', 'W71ZJ21JXVE0+1FEzTksXBEer4sqthPRWyqLPVBuas8=', 1621615003),
 (34, 'zikraadib@gmail.com', 'YXROCujj1bBkURXb77sKKQNxMIl7EJZnuMlsbS2sMOE=', 1621615074),
 (35, 'lani_sari@gmail.com', 'UPYC6wLdjR8VBc8i+roSEuXRYo4xpKmLQn62CHxcg+0=', 1621615115),
-(36, 'zikrahawari@gmail.com', 'kqUyc9ALiQpIqe1CMGWKVxW6b6a3UH6vjHXn7+HrYYk=', 1621615159);
+(36, 'zikrahawari@gmail.com', 'kqUyc9ALiQpIqe1CMGWKVxW6b6a3UH6vjHXn7+HrYYk=', 1621615159),
+(37, 'awal_afif@gmail.com', 'IaDcV4Z9055HjTbkZFqaHCEptEG2a1tFJw8SmXAif3g=', 1621623703);
 
 --
 -- Indexes for dumped tables
@@ -237,7 +239,7 @@ ALTER TABLE `user_token`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `user_access_menu`
@@ -267,7 +269,7 @@ ALTER TABLE `user_sub_menu`
 -- AUTO_INCREMENT for table `user_token`
 --
 ALTER TABLE `user_token`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
