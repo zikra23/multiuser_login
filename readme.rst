@@ -6,6 +6,10 @@ Admin:
 email:zikrahawari@gmail.com	
 password:12345678
 
+User:
+email:awal_afif@gmail.com
+password:12345678
+
 framework 
 Code Igniter 3
 Bootstrap
